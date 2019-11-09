@@ -1,0 +1,33 @@
+.menu {
+  border-radius: 2px;
+  width: 100%;
+  height: 100px;
+  background-color: #e4516aad;
+  display: flex;
+  align-items: center;
+}
+.menu-items {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin: 16px;
+  button {
+    margin: 16px;
+  }
+}
+.title {
+  display: flex;
+  width: 100%;
+  margin: 16px;
+  h1 {
+    margin: 16px;
+    color: white;
+  }
+  h3 {
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-style: italic;
+  }
+}

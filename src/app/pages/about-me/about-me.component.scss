@@ -1,0 +1,19 @@
+.about-me {
+  display: flex;
+  margin: 32px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.image {
+  width: 400px;
+  border: 40px #e3d1bb52 solid;
+}
+.bio {
+  margin: 40px;
+  color: #444444;
+}
+.creds {
+  margin: 24px;
+  display: flex;
+  justify-content: space-around;
+}
