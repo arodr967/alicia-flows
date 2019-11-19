@@ -13,8 +13,12 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
         <button mat-raised-button routerLink="/about-me">
           About me
         </button>
-        <button mat-raised-button routerLink="/classes">
+        <!--TODO: Make this a dropdown. -->
+        <button mat-raised-button>
           Classes
+        </button>
+        <button mat-raised-button routerLink="/getting-started">
+          Getting started
         </button>
       </div>
     </div>

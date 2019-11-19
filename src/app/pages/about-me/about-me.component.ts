@@ -34,6 +34,7 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
           <!--TODO: Create shared google doc links for documents-->
           <button mat-raised-button>Certification</button>
           <button mat-raised-button>Liability Insurance</button>
+          <button mat-raised-button>My ultimate goal</button>
         </div>
       </div>
     </div>

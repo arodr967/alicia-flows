@@ -3,7 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { ClassesComponent } from './pages/classes/classes.component';
-
+import { GettingStartedComponent } from './pages/getting-started/getting-started.component';
 
 const routes: Routes = [
   {
@@ -15,8 +15,16 @@ const routes: Routes = [
     component: AboutMeComponent
   },
   {
-    path: 'classes',
+    path: 'group-classes',
     component: ClassesComponent
+  },
+  {
+    path: 'private-classes',
+    component: ClassesComponent
+  },
+  {
+    path: 'getting-started',
+    component: GettingStartedComponent
   },
   {
     path: '**',
@@ -28,4 +36,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

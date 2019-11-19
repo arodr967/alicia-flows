@@ -1,21 +1,20 @@
-import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
+// Create page component to be used in every page
 @Component({
-  selector: 'app-home',
+  selector: 'app-page',
   template: `
-    <!--TODO: Use moment to display current date-->
-    <div class="home">
+    <div class="page">
       <div class="header">
         <div class="title">
-          <!--p>{{ date }}</p-->
           <h1>today, is your lucky day</h1>
         </div>
         <div class="sub-title">
-          <!--TODO: Link to my main website.-->
           <h3>
             you have stumbled upon
             <a href="">your <i>not-so-average</i> yoga teacher</a>
             website
+            <ng-content></ng-content>
           </h3>
         </div>
       </div>
@@ -25,11 +24,9 @@ import { Component, OnInit, ChangeDetectionStrategy } from '@angular/core';
       </div>
     </div>
   `,
-  styleUrls: ['./home.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  styleUrls: ['./page.component.scss']
 })
-export class HomeComponent implements OnInit {
-  date = new Date();
+export class PageComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
