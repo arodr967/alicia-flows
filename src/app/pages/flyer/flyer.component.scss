@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 64px 12px 64px 12px;
+}
+
+.app-flyer {
+  text-align: center;
+  p {
+    font-size: 8vw;
+  }
+  h1 {
+    font-size: 14vw;
+  }
+  h2 {
+    font-size: 7vw;
+  }
+  h3 {
+    font-size: 6vw;
+  }
+  h4 {
+    font-size: 5vw;
+  }
+  h5 {
+    font-size: 4vw;
+  }
+}
